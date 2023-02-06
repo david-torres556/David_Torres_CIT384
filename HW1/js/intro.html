@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<meta charset="utf-8">
+<title><h1>Introduction to HTML</h1></title>
+<head>
+<h1>
+  Comp 484
+  Introduction to HTML
+</h1>
+<body>
+<ul>
+  <li><a href="intro.htm" title="Introduction to HTML">Introduction to HTML</a></li>
+  <li><a href="syntax.htm" title="HTML syntax">HTML syntax</a></li>
+  <li><a href="links.htm" title="Creating links">Creating links</a></li>
+  <li><a href="reference.htm" title="HTML Reference">HTML reference</a></li>
+  <li><a href="next.htm" title="Next steps">Next steps</a></li>
+</ul>
+
+<p>
+  <img src="https://cdn.glitch.com/9ef6495a-beba-46ed-9424-343966d3e6f8%2Ftags.png?1517520126108" alt="HTML" width="310" height="375" class="flowright"><b>HTML</b>, or <b>Hypertext Markup Language</b>, is the language used to describe the structure of content on the web. As with other markup languages, it uses tags to identify page elements and describe the page&rsquo;s semantic structure. An easy way to visualize this is to consider the various types of documents you see on a day-to-day basis, like magazine and newspaper articles or documents created in a program like Microsoft Word. The formatting of those documents ensures that the information is presented clearly, with a distinct hierarchy. This allows readers to quickly scan the page and determine which information is important and how the content relates to each other. <b>HTML</b> allows us to do that for web pages by first establishing the overall document structure, and then formatting elements like headings and paragraphs.
+</p>
+<h3>
+  History
+</h3>`
+<p>
+  <b>HTML</b> can trace its roots back to 1989 at <b>CERN</b>, the European Laboratory for Particle Physics. There, Tim Berners-Lee came up with the idea of having scientists from around the world collaborate on research. His idea was rather than simply making documents available on a server as many people were doing at the time, the documents themselves should be able to link to one another, in a way that would enhance collaboration and make information easier to find and more accessible. From this idea Tim created <b>HTML</b> (based off <b>SGML</b>, an earlier markup language) to format pages and <b>HTTP</b> (or Hypertext Transfer Protocol) to transfer them from one computer to another. Although the world didn&rsquo;t quite realize it yet, the World Wide Web was born.
+</p>
+<p>
+  As the popularity of the web increased in the early 90s, <b>HTML</b> underwent a series of rapid changes. Browser manufacturers like Netscape and Microsoft started to develop their own proprietary tags, and development bodies like the <b>IETF</b> (the Internet Engineering Task Force) and the <b>W3C</b> (the World Wide Web Consortium) were finding it difficult to gain traction with the standardization process of <b>HTML</b>. By 1995, the <b>W3C</b> created an editorial review board for <b>HTML</b> that included members of the <b>W3C</b> as well as representatives from browser developers and other organizations. This collaborative board had a major impact in stabilizing the <b>HTML</b> standard and reducing the uneven implementations that had plagued earlier browsers.
+</p>
+<p>
+  This resulted in the <b>HTML</b> <b>4.0</b> specification being released in 1998. It was the most stable version of <b>HTML</b> up to that point, and formalized many of the improvements made to <b>HTML</b> over the years. It&rsquo;s still the most widely used version of <b>HTML</b> and remains the baseline for authors and implementers alike.
+</p>
+<p>
+  Around the time that <b>HTML</b> <b>4.0</b> was published, a movement began to evolve <b>HTML</b> towards a more flexible style of markup language. Although authors had tried to anticipate the tags necessary to markup documents, the spread of the World Wide Web and the diversity of user agents made keeping up with requirements difficult. In the eyes of many, migrating to a markup language like <b>XML</b>, which allows authors to create their own tags to represent content, would alleviate those concerns and allow <b>HTML</b> to evolve organically. <b>XML</b> also contains stricter formatting rules than <b>HTML</b>, and a sizable number of authors and developers found <b>HTML&rsquo;s</b> lax parsing rules problematic. This effort resulted in the publishing of the <b>XHTML</b> <b>1.0</b> specification in 2000. Although it was not a dramatic departure from <b>HTML</b> <b>4.0</b>, it did introduce new syntax rules to conform to <b>XML</b> requirements and eliminated the <b>HTML</b> elements that were seen to be dictating the presentation of content rather than the structure of it.
+</p>
+
+<p>
+  <img src="https://cdn.glitch.com/9ef6495a-beba-46ed-9424-343966d3e6f8%2F200px-W3C_Icon.png?1517520129442" alt="W3C logo" width="200" height="136" class="flowleft">Shortly after the 1.0 specification was published, work began on <b>XHTML</b> <b>2.0</b>, which was to move <b>HTML</b> further towards <b>XML</b>. <b>XHTML</b> 2.0 was a dramatic departure from previous versions of <b>HTML</b> and was never able to gain any traction among browser developers. The specification languished for years in the W3C before its charter was revoked in 2009, essentially ending development.
+</p>
+<p>
+  While the W3C was taking <b>HTML</b> down the <B>XHTML</B> path, a group of authors, developers, and organizations became frustrated with the lack of progress on updating <b>HTML</b>. This group decided to evolve <b>HTML</b> independently of the W3C and formed the Web Hypertext Application Technology Working Group (or <b>WHATWG</b>) in 2004. They began work on the Web Applications <b>1.0</b> standard, which extended <b>HTML</b> <b>4.0</b>, adding clear parsing rules for user agents and creating APIs to make developing web applications easier. The W3C, realizing that <b>XHTML</b> <b>2.0</b> faced significant hurdles in adoption, began working with the WHATWG and began to jointly develop the new standard with them in 2008. Currently the W3C works on publishing a stable version of the specification, while the <b>WHATWG</b> continues to work on what they call a &ldquo;living standard&rdquo; of the specification. As a living standard, they&rsquo;ve removed the version number and simply refer to it as &ldquo;<b>HTML</b>.&rdquo;
+</p>
+ <h4> 
+    HTML timeline 
+ </h4>
+</p>
+<ol>
+  <li><b>1991</b>: Tim Berners-Lee publishes &ldquo;HTML Tags&rdquo; which describes the initial 18 elements of <b>HTML</b></li>
+  <li><b>1992</b>: NCSA develops the Mosaic browser, which will eventually evolve into Netscape</li>
+  <li><b>1994</b>: The Internet Engineering Task Force (<b>IETF</b>) creates an <b>HTML</b> working group to develop <b>HTML</b> specifications. Later that year the <b>W3C</b> was created to foster an open standards environment</li>
+  <li><b>1995</b>: <b>HTML 2.0</b> specification is published</li>
+  <li><b>1995</b>: Microsoft releases Internet Explorer to compete with Netscape</li>
+  <li><b>1997</b>: <b>HTML 3.2</b> specification is published</li>
+  <li><b>1997</b>: <b>HTML 4.0</b> specification is published</li>
+  <li><b>2000</b>: <b>XHTML 1.0</b> is published as a <b>W3C</b> recommendation</li>
+  <li><b>2004</b>: The <b>WHATWG</b> forms to continue work on <b>HTML</b></li>
+  <li><b>2006</b>: <b>W3C</b> announces it will work with the <b>WHATWG</b> on <b><b>HTML</b>5</li></b>
+  <li><b>2009</b>: <b>XHTML</b> Working Group charter expires</li>
+  <li><b>2012</b>: <b>W3C</b> and <b>WHATWG</b> announce they will develop the <b>HTML5</b> standard separately</li>
+</ol>
+</body>
+</html>
